@@ -96,6 +96,20 @@ const Vision = () => {
             ))}
           </div>
         </div>
+
+        {/* New Large Bottom CTA */}
+        <div className="mission-bottom-cta fade-in" style={{ marginTop: '60px' }}>
+          <div className="mission-cta-left">
+            <h3>Stand With Us for Justice</h3>
+            <p>Join over 50,000 members dedicated to building a brighter, more equitable future together.</p>
+          </div>
+          <a href="#membership" className="btn btn-gold" onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('membership')?.scrollIntoView({ behavior: 'smooth' });
+          }}>
+            ✦ Join the Movement
+          </a>
+        </div>
       </div>
     </section>
   );

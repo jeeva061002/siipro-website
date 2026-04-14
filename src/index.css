@@ -2099,6 +2099,20 @@ select {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .navbar-links,
+  .navbar-cta {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .mission-bottom-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .leadership-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2137,15 +2151,6 @@ select {
 @media (max-width: 768px) {
   :root {
     --section-padding: 72px 0;
-  }
-
-  .navbar-links,
-  .navbar-cta {
-    display: none;
-  }
-
-  .mobile-toggle {
-    display: flex;
   }
 
   .hero {
