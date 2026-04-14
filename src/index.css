@@ -568,8 +568,7 @@ select {
    NAVBAR
    ============================================ */
 .navbar {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 1000;
   background: var(--white);
   border-bottom: 1px solid var(--border-color);
